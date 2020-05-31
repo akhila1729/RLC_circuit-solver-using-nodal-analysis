@@ -17,38 +17,71 @@ The input loop ends when @ is typed for element name
 Eg inputs:
 1)
 Enter the total number of nodes in the circuit
+
 3
+
 Enter the element
+
 v
+
 Enter the node1
+
 0
+
 Enter the node2
+
 1
+
 Enter the value of element
+
 1
+
 Enter the voltage number
+
 0
+
 Enter the element
+
 c
+
 Enter the node1
+
 1
+
 Enter the node2
+
 2
+
 Enter the value of element
+
 1
+
 Enter the capacitor number
+
 0
+
 Enter the element
+
 l
+
 Enter the node1
+
 2
+
 Enter the node2
+
 0
+
 Enter the value of element
+
 1
+
 Enter the inductor number
+
 0
+
 Enter the element
+
 @
 2)
 3 v 0 1 1 0 r 1 2 1 c 2 0 1 0 @
