@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>
+R_C circuit</title>
+
+<script Language= "JavaScript" src="https://cdn.plot.ly/plotly-latest.min.js">
+	</script>
+<script Language= "JavaScript" src="https://unpkg.com/mathjs@7.0.0/dist/math.js">
+	</script>
+<script Language="Javascript" src=parser.js></script>
+<script Language="Javascript" src=matrix.js></script>
+<script Language="Javascript" src=cimulator.js></script>
+
+</head>
+<body>
+	<form name="black">
+		<center>
+		Enter the element's name,connecting node 1 to node 2(clockwise order),node 1 ,node 2 and the value of element,without a space in between any of these<br>
+		then put a comma and continue writing the element's details.In the end put a comma.
+		Label the nodes from 1 to n where n is total number of nodes<br><br>
+	<input type="text" name="txtNum"><br><br>
+	<input type="text" name="txtNum1"><br><br>
+	<INPUT Type= "button" Value= "Ok" onClick= "xyz()"><br>
+        </center> 
+	</form>
+	<div id='myDiv'><!-- Plotly chart will be drawn inside this DIV --></div>
+	
+</body></html>
+
